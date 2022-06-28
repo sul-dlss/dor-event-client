@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'dor/event/client/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'event-client'
+  spec.name          = 'dor-event-client'
   spec.version       = Dor::Event::Client::VERSION
   spec.authors       = ['Justin Coyne', 'Michael Giarlo']
   spec.email         = ['jcoyne@justincoyne.com', 'leftwing@alumni.rutgers.edu']
