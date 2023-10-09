@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
+require 'active_support'
 require 'active_support/core_ext/module/delegation'
-require 'active_support/json'
 require 'active_support/core_ext/object/json'
+require 'active_support/json'
 require 'bunny'
 require 'singleton'
 require 'zeitwerk'
