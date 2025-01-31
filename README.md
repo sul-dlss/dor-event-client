@@ -1,13 +1,12 @@
 [![Gem Version](https://badge.fury.io/rb/dor-event-client.svg)](https://badge.fury.io/rb/dor-event-client)
 [![CircleCI](https://circleci.com/gh/sul-dlss/dor-event-client.svg?style=svg)](https://circleci.com/gh/sul-dlss/dor-event-client)
-[![Code Climate](https://codeclimate.com/github/sul-dlss/dor-event-client/badges/gpa.svg)](https://codeclimate.com/github/sul-dlss/dor-event-client)
-[![Code Climate Test Coverage](https://codeclimate.com/github/sul-dlss/dor-event-client/badges/coverage.svg)](https://codeclimate.com/github/sul-dlss/dorevent-client/coverage)
+[![codecov](https://codecov.io/github/sul-dlss/dor-event-client/graph/badge.svg?token=FOQQPE3CKA)](https://codecov.io/github/sul-dlss/dor-event-client)
 
 # Dor::Event::Client
 
 Dor::Event::Client is a Ruby gem that acts as a client for the event services provided by [dor-services-app](https://github.com/sul-dlss/dor-services-app).
 
-Currently, the client only supports the asynchronous creation of events (via RabbitMQ). In the future, other operations 
+Currently, the client only supports the asynchronous creation of events (via RabbitMQ). In the future, other operations
 (including synchronous operations via HTTP) may be supported. At present, additional event operations are supported by
 [dor-services-client](https://github.com/sul-dlss/dor-services-client).
 
@@ -49,8 +48,8 @@ Dor::Event::Client.create(druid:, type:, data:)
 
 # For example:
 Dor::Event::Client.create(
-  druid: 'druid:bb408qn5061', 
-  type: 'druid_version_replicated', 
+  druid: 'druid:bb408qn5061',
+  type: 'druid_version_replicated',
   data {
       host: 'preservation-catalog-qa-02.stanford.edu',
       version: 19,
