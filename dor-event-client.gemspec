@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.required_ruby_version = '>= 3.0', '< 4'
 
-  spec.add_dependency 'activesupport', '>= 4.2', '< 8'
+  spec.add_dependency 'activesupport', '>= 4.2'
   spec.add_dependency 'bunny', '~> 2.17' # Send messages to RabbitMQ
   spec.add_dependency 'zeitwerk', '~> 2.1'
 
